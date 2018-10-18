@@ -9,3 +9,9 @@
 
 // DOCUMENT READY FUNCTION BELOW
 
+$("#shoot").click(function(){
+    var computerchoice = "rock";
+    $("#userChoice").text($("#input").val())
+    $("#computerChoice").text(computerchoice)
+});
+
